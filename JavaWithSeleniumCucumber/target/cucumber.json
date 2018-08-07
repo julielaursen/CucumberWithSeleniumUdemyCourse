@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3387122413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with username and password",
+        "description": "",
+        "id": "login-feature;login-with-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 118479,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 793919465,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148805,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I log into the application",
+            "match": {
+              "location": "LoginStep.i_log_into_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3335408,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the users email address as Email:admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 41
+                }
+              ],
+              "location": "LoginStep.i_enter_the_users_email_address_as_Email_admin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065257,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the county of my salary digits for Rs 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000",
+                  "offset": 47
+                }
+              ],
+              "location": "LoginStep.i_verify_the_county_of_my_salary_digits_for_Rs(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 612144,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I just need to see how the step looks for Cucumber-Java8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 55
+                }
+              ],
+              "location": "Java8VersionStub.java:9"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139369555,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter following details for login",
+            "match": {
+              "location": "LoginStep.i_enter_following_details_for_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "admin",
+                  "admin"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51199340,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginStep.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 670114442,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.i_should_see_the_userform_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "  This feature deals with the login feature of the website",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
